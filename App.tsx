@@ -110,7 +110,7 @@ const App: React.FC = () => {
     <Router>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen relative transition-colors duration-300">
-        <TechBackground />
+        <TechBackground theme={theme} />
         <Navigation theme={theme} toggleTheme={toggleTheme} />
         <main className="flex-grow relative z-10">
           <Routes>

@@ -43,7 +43,7 @@ export const Navigation: React.FC<NavigationProps> = ({ theme, toggleTheme }) =>
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'py-4 bg-white/90 dark:bg-slate-950/90 backdrop-blur-md border-b border-slate-200 dark:border-white/5 shadow-xl' : 'py-6 bg-transparent'}`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#/" className="flex items-center space-x-2 group">
-          <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+          <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 ease-in-out">
             <span className="font-extrabold text-xl text-white">S</span>
           </div>
           <div className="flex flex-col leading-tight">
